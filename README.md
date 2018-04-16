@@ -1,12 +1,11 @@
 ## platform-services-weather
 
-## Problem Statement:
+> Is the weather getting 'better' or 'worse' over time?  
 
-Is the weather getting 'better' or 'worse' over time?  
-
-Use case:  
+### Use case:  
   
-A solar panel company in San Francisco wants to know if the historically gloomy month of June is getting 'better' or 'worse' over the last five years.   
+A solar panel company in San Francisco wants to know if the historically gloomy month of June is getting 'better' or 'worse' over the last five years.
+     
 Solar panels lose approximately 30% of their efficiency in cloudy weather. Therefore, % cloudiness will be be the main determinate of weather improvement. 
 
 ## Methods:
