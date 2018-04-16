@@ -37,10 +37,17 @@ The script followed the style used in the google sheets API docs.
 
 ## Docker build
 
-Instructions:
-1. Build image:  
-  - 'docker build -t weatherserver .'
-2. Spin up container:  
-  - 'docker run -d -p 1000:3000 --rm weatherserver'
-3. Stop container:  
-  - 'docker stop <container-name>'  
+Build image:  
+```
+docker build -t weatherserver .
+```
+  
+Spin up container:  
+```
+docker run -d -p 1000:3000 --rm weatherserver
+```  
+
+Stop container:  
+```
+docker stop <container-name>
+```
