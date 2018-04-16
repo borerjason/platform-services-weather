@@ -21,7 +21,8 @@ The hourly bulk data was consolidated into avg cloudiness per day. Daylight hour
 
 The June forecast for solar panel efficiency in San Francisco appears to be getting worse over the past 5 years.
 
-![](images/weather.png)
+<img src="images/weather.png">
+
 ## Style:
 
 The script followed the style used in the google sheets API docs. 
