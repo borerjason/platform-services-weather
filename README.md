@@ -16,7 +16,8 @@ The hourly bulk data was consolidated into avg cloudiness per day. Daylight hour
 
 ## Results:
 
-The June forecast for solar panel efficiency in San Francisco appears to be getting worse over the past 5 years.
+The June forecast for solar panel efficiency in San Francisco appears to be getting worse over the past 5 years.  
+[Destination Spreadsheet](https://docs.google.com/spreadsheets/d/1XLz8eLjqNFO2h-m36BfcrG1CdF3R9L-se7nuoeH_h9I/edit?usp=sharing)
 
 <img src="images/weather.png">
 

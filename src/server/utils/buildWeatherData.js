@@ -13,7 +13,7 @@ const buildData = (callback) => {
 
 const buildDailyDaytimeWeatherData = (hourlyData)  =>{
   const data = {};
-  console.log(hourlyData[0])
+
   hourlyData.forEach(reading => {
     const year = reading.dt_iso.slice(0, 4);
     const month = reading.dt_iso.slice(5, 7);
