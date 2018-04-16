@@ -43,9 +43,8 @@ SPREADSHEET_ID=your-destination-google-spreadsheet-id
 PORT=3000
 ```
 Google sheets auth API setup:
-``` 
-Follow Steps 1 & 2 from [google sheets documentation](https://developers.google.com/sheets/api/quickstart/nodejs#step_3_set_up_the_sample)
-```
+* Follow Steps 1 & 2 from [google sheets documentation](https://developers.google.com/sheets/api/quickstart/nodejs#step_3_set_up_the_sample)
+
 
 ## Docker build
 
