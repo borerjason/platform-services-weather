@@ -12,12 +12,13 @@ Solar panels lose approximately 30% of their efficiency in cloudy weather. There
 
 Historical weather data was downloaded via the open weather map [history bulk data API](https://openweathermap.org/history-bulk). A bulk download of the past five years was available. The data contained hourly data from April 2012 - April 2018.
   
-The hourly bulk data was consolidated into avg cloudiness per day. Daylight hours were only considered (7 am - 7pm). 
+The hourly bulk data was consolidated daily data. Daylight hours were only considered (7 am - 7pm). 
 
 ## Results:
 
-The June forecast for solar panel efficiency in San Francisco appears to be getting worse over the past 5 years.  
-[Destination Spreadsheet](https://docs.google.com/spreadsheets/d/1XLz8eLjqNFO2h-m36BfcrG1CdF3R9L-se7nuoeH_h9I/edit?usp=sharing)
+The June weather for solar panel efficiency in San Francisco appears to be getting worse over the past 5 years.  
+    
+Source: [Destination Spreadsheet](https://docs.google.com/spreadsheets/d/1XLz8eLjqNFO2h-m36BfcrG1CdF3R9L-se7nuoeH_h9I/edit?usp=sharing)  
 
 <img src="images/weather.png">
 
