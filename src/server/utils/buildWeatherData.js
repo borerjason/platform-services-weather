@@ -13,7 +13,7 @@ const buildData = (callback) => {
 
 const buildDailyDaytimeWeatherData = (hourlyData)  =>{
   const data = {};
-
+  console.log(hourlyData[0])
   hourlyData.forEach(reading => {
     const year = reading.dt_iso.slice(0, 4);
     const month = reading.dt_iso.slice(5, 7);
@@ -46,7 +46,6 @@ const buildDailyDaytimeWeatherData = (hourlyData)  =>{
   return data;
 }
 
-
 const buildJuneDaytimeData = (dailyData) => {
   const upload = [];
   for (let i = 2013; i < 2018; i += 1) {
@@ -65,4 +64,4 @@ const buildJuneDaytimeData = (dailyData) => {
   return upload;
 }
 
-module.exports.buildData = buildData;
+module.exports = { buildData, buildJuneDaytimeData, buildDailyDaytimeWeatherData };

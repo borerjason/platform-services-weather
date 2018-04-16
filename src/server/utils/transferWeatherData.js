@@ -4,10 +4,9 @@ const { google } = require('googleapis');
 const sheets = google.sheets('v4');
 const TOKEN_PATH = 'credentials.json';
 const OAuth2Client = google.auth.OAuth2;
+
 const SCOPES = 'https://www.googleapis.com/auth/spreadsheets';
-
 const { buildData }  = require('./buildWeatherData');
-
 const spreadsheetId = process.env.SPREADSHEET_ID;
 const URL = `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values/A1:append`
 

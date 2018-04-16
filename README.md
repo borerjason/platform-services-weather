@@ -11,9 +11,7 @@ Solar panels lose approximately 30% of their efficiency in cloudy weather. There
 ## Methods:
 
 Historical weather data was downloaded via the open weather map [history bulk data API](https://openweathermap.org/history-bulk). A bulk download of the past five years was available. The data contained hourly data from April 2012 - April 2018.
-
-
-
+  
 The hourly bulk data was consolidated into avg cloudiness per day. Daylight hours were only considered (7 am - 7pm). 
 
 ## Results:
