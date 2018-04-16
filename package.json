@@ -1,0 +1,32 @@
+{
+  "name": "platform-services-weather",
+  "version": "1.0.0",
+  "description": "export weather data from openweathermap to google sheets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev": "nodemon src/server/index.js",
+    "start": "node src/server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/borerjason/platform-services-weather.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/borerjason/platform-services-weather/issues"
+  },
+  "homepage": "https://github.com/borerjason/platform-services-weather#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.2",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "googleapis": "^27.0.0",
+    "node": "^9.11.0",
+    "nodemon": "^1.17.3",
+    "path": "^0.12.7"
+  }
+}
